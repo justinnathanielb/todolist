@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/new_tasks_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Tasks: 0"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:onClick="onCategoryClicked"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/in_progress_tasks_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Progress Tasks: 0"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:onClick="onCategoryClicked"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/done_tasks_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done Tasks: 0"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:onClick="onCategoryClicked"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/button_add_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
